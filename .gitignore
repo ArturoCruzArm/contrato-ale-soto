@@ -1,0 +1,20 @@
+# Ignorar el directorio de imágenes (muy pesado para GitHub)
+images/
+
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
