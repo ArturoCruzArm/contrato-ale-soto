@@ -1,5 +1,11 @@
-# Ignorar el directorio de imágenes (muy pesado para GitHub)
-images/
+# Ignorar solo imágenes JPG/PNG originales (muy pesadas)
+# Permitir archivos WEBP optimizados
+images/*.JPG
+images/*.JPEG
+images/*.PNG
+images/*.jpg
+images/*.jpeg
+images/*.png
 
 # Archivos temporales de Python
 __pycache__/
